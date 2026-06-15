@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en-NZ">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact | Clarity Window Washing</title>
+    <meta name="description" content="Contact Clarity Window Washing for window cleaning quotes across Auckland and Tauranga.">
+    <link rel="stylesheet" href="assets/styles.css">
+    <script defer src="assets/main.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html"><img src="assets/images/clarity-logo.jpeg" alt="Clarity Window Washing logo"><span>Clarity Window Washing</span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" aria-current="page">Contact</a>
+      </nav>
+      <a class="header-cta" href="#quote">Get a quote</a>
+    </header>
+
+    <main>
+      <section class="contact-layout">
+        <div class="contact-copy">
+          <p class="eyebrow">Contact</p>
+          <h1>Get a window washing quote.</h1>
+          <p>Call, text, or send a quick quote request. We serve Auckland and Tauranga for residential, commercial, and solar panel cleaning.</p>
+          <div class="contact-methods">
+            <a href="tel:+64212411722"><span>Call or text</span><strong>021 241 1722</strong></a>
+            <a href="mailto:vivan@claritywindowashing.co.nz"><span>Email</span><strong>vivan@claritywindowashing.co.nz</strong></a>
+            <div><span>Service area</span><strong>Auckland & Tauranga</strong></div>
+          </div>
+        </div>
+        <form id="quote" class="quote-form contact-form" data-quote-form>
+          <h2>Quote form</h2>
+          <label>
+            <span>How many stories is the home?</span>
+            <select name="stories" required>
+              <option value="">Select</option>
+              <option>Single storey</option>
+              <option>Two storey</option>
+              <option>Three or more storeys</option>
+              <option>Commercial property</option>
+            </select>
+          </label>
+          <label>
+            <span>How many bedrooms?</span>
+            <select name="bedrooms" required>
+              <option value="">Select</option>
+              <option>1-2 bedrooms</option>
+              <option>3 bedrooms</option>
+              <option>4 bedrooms</option>
+              <option>5+ bedrooms</option>
+              <option>Not a home</option>
+            </select>
+          </label>
+          <fieldset>
+            <legend>What needs cleaning?</legend>
+            <label><input type="radio" name="cleaning" value="Exterior only" required> Exterior only</label>
+            <label><input type="radio" name="cleaning" value="Interior only"> Interior only</label>
+            <label><input type="radio" name="cleaning" value="Interior and exterior"> Interior and exterior</label>
+          </fieldset>
+          <label>
+            <span>Your name</span>
+            <input name="name" autocomplete="name" placeholder="Name" required>
+          </label>
+          <label>
+            <span>Phone number</span>
+            <input name="phone" type="tel" autocomplete="tel" placeholder="Phone number" required>
+          </label>
+          <label>
+            <span>Property address</span>
+            <input name="address" autocomplete="street-address" placeholder="Address" required>
+          </label>
+          <fieldset>
+            <legend>When would you like the clean?</legend>
+            <label><input type="radio" name="timing" value="Now" required> Now</label>
+            <label><input type="radio" name="timing" value="In the near future"> In the near future</label>
+          </fieldset>
+          <label>
+            <span>Anything else?</span>
+            <textarea name="message" rows="4" placeholder="Solar panels, access notes, add-ons, or service-plan questions"></textarea>
+          </label>
+          <button class="button primary" type="submit">Prepare quote request</button>
+          <div class="quote-actions" hidden>
+            <a class="button primary" data-send-text href="#">Send by text</a>
+            <a class="button outline" data-send-email href="#">Send by email</a>
+          </div>
+          <p class="form-note">After preparing your request, choose to send it by text or email.</p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div><img src="assets/images/clarity-logo.jpeg" alt=""><p>Clarity Window Washing</p><span>Auckland & Tauranga</span></div>
+      <nav aria-label="Footer navigation"><a href="services.html">Services</a><a href="gallery.html">Gallery</a><a href="contact.html#quote">Quote</a></nav>
+      <div class="footer-contact"><a href="tel:+64212411722">021 241 1722</a><a href="mailto:vivan@claritywindowashing.co.nz">vivan@claritywindowashing.co.nz</a></div>
+    </footer>
+  </body>
+</html>
